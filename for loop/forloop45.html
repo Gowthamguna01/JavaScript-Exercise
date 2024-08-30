@@ -1,0 +1,55 @@
+<script>
+    let a,b,i,m,f,c,d,e,N,M,p;
+    a=parseInt(prompt("Enter Value="));
+    b=" "
+    i=0
+    m=0
+    f=0
+    c=a.length
+    for(i=0;i<=c;i++){
+        d=prompt(a[c])
+        if(d=="a"){
+            e=10
+        }
+
+        else if(d=="b"){
+            e=11
+        }
+
+        else if(d=="c"){
+            e=12
+        }
+
+        else if(d=="d"){
+            e=13
+        }
+
+        else if(d=="e"){
+            e=14
+        }
+
+        else if(d=="f"){
+            e=15
+        }
+
+        else{
+            e=parseInt(d)
+            m=m+Math.pow(16,f)*e
+            f=f+1
+            c=c-1
+            document.write(m , "<br><br>")
+        }
+
+        F=0
+        N=m
+        for(N;N>0;N--){
+            b=N%2
+            N=parseInt(n/2)
+            p=p+Math.pow(10,f)*b
+            f=f+1
+            document.write(b, "<br><br>")
+        }
+
+        
+    }
+</script>

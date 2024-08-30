@@ -1,0 +1,20 @@
+<script>
+    let n,d,y,p,f,g,h,j,i;
+
+    n=parseInt(prompt("Enter num="));
+    d=0
+    y=n
+    for(n;n>0;n--){
+        n=parseInt(n/10)
+        d=d+1
+    }
+    c=d-1
+    p=Math.pow(10,c)
+    a=y%10
+    f=parseInt(y/p)
+    g=y-a+f
+    h=a*p
+    j=f*p
+    i=g-j+h
+    document.write(i, "<br><br>")
+</script>

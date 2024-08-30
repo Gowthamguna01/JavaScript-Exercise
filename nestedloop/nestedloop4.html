@@ -1,0 +1,27 @@
+<script>
+    let n;
+    n=parseInt(prompt("Enter n num="));
+    i=100
+    for(i;i<=n;){
+        j=i
+        d=0
+        b=Math.pow(j,2)
+        for(j=i;j>0;j--){
+            c=j%10
+            d=d*10+c
+            j=parseInt(j/10)
+        }
+        e=Math.pow(d,2)
+        g=0
+        for(e;e>0;){
+            f=e%10
+            g=g*10+f
+            e=parseInt(e/10)
+        }
+    }
+        if(b==g){
+            document.write(i, "adam num=")
+        }
+        i=i+1
+    
+</script>

@@ -1,0 +1,18 @@
+<script>
+    let n;
+    n=parseInt(prompt("Enter n num="));
+    m=n
+    c=0
+    for(n>0;n--;){
+        b=n%10
+        n=parseInt(n/10)
+        i=1
+        for(j=1;j<=b;){
+            i=j*i
+            j=j+1
+        }
+        c=c+i
+        document.write(c, "<br>")
+    }
+
+</script>

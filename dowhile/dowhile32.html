@@ -1,0 +1,21 @@
+<script>
+    
+    let  n,a,c,d,m;
+    n=parseInt(prompt("Enter Value="));
+    c=0
+    a=n
+    d=0
+    m=n
+    do{
+        n=parseInt(n/10); //loop stop
+        c=c+1 //digit find
+        document.write(c, "<br><br>")
+    }while(n>0);
+
+    do{
+        b=a%10; //reverse
+        d=Math.pow(b,c);
+        a=parseInt(a/10); //loop stop
+        document.write(d, "<br><br>")
+    }while(a>0);
+</script>

@@ -1,0 +1,13 @@
+<script>
+    let n,c,f;
+    c=0
+    f=0
+    n=parseInt(prompt("Enter Value="));
+    do{
+        b=n%2;
+        n=parseInt(n/10)
+        c=c+Math.pow(10,f)*b
+        f=f+1;
+        document.write(c ,"<br><br>")
+    }while(n>0);
+</script>

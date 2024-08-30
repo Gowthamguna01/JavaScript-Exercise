@@ -1,0 +1,20 @@
+<script>
+    let n,b,c;
+
+    n=parseInt(prompt("Enter n num="));
+    b=Math.pow(n,2)
+    c=0
+    for(n;n>0;n--){
+        n=parseInt(n/10)
+        c=c+1
+    }
+    e=Math.pow(10,c)
+    d=b%e
+    if(m==d){
+        document.write("automorphic",d)
+    }
+
+    else{
+        document.write("not automorphic", d)
+    }
+</script>

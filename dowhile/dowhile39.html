@@ -1,0 +1,15 @@
+<script>
+    "use strict"
+    let a,c,f,d,b;
+    a=parseInt(prompt("Enter Value="));
+    c=0
+    f=0
+    d=0
+   do{
+        b=a%10
+        a=parseInt(a/10)
+        c=c+Math.pow(2,f)*b
+        d=d+b*2+f
+        f=f+1
+    } while(a>0);
+</script>

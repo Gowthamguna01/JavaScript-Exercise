@@ -1,0 +1,16 @@
+<script>
+    //odd number
+    "use strict"
+    let a,b;
+    a=parseInt(prompt("enter value"));
+    do{
+        if(a%2==1){
+            b=a-2; //5-2=3 b=3.. 3-2=1 b=1
+            document.write(a,"current number <br><br>")
+            if(b>0){
+                document.write(b, "previous number <br><br>")
+            }
+        }
+        a=a-1
+    }while(a>0);
+</Script>

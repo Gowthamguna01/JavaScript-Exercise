@@ -1,0 +1,20 @@
+<script>
+    "use strict"
+    let a,d,c,b;
+    a=parseInt(prompt("Enter Value="));
+    d=0
+    c=a
+    while(a>0){
+        b=a%10;
+        a=parseInt(a/10);
+        d=d*10+b;
+        document.write(d, "<br><br>")
+    }
+    if(d==c){
+        document.write("palindrome")
+    }
+    else{
+        document.write("Not palindrome")
+    }
+
+</script>

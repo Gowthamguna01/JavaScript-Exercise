@@ -1,0 +1,25 @@
+<script>
+    "use strict"
+    let a,f,c,he,b,m;
+
+    a=parseInt(prompt("enter number="));
+    m=0
+    f=0
+    c=0
+    while(a>0){
+        b=a%10
+        a=parseInt(a/10)
+        c=c+Math.pow(2,f)*b
+        f=f+1
+        document.write(c, "<br><br>")
+    }
+    f=0
+    he=c
+    while(he>0){
+        b=he%16
+        he=parseInt(he/16)
+        m=m+Math.pow(10,f)*b
+        f=f+1
+        document.write(m, "<br><br>")
+    }
+</script>

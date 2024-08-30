@@ -1,0 +1,14 @@
+<script>
+    let a,c,f,i;
+    a=parseInt(prompt("enter Value="));
+    c=0
+    f=0
+    i=0
+    for(i=a;i>=0;i--){
+        b=a%10
+        a=parseInt(a/10)
+        c=c+Math.pow(8,f)*b
+        f=f+1
+        document.write(c, "<br><br>")
+    }
+</script>

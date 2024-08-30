@@ -1,0 +1,19 @@
+<script>
+    //factorial sum of even
+    "use strict"
+    let a,i,j,b;
+    a=parseInt(prompt("enter value="));
+    i=1
+    j=1
+    b=0
+    do{
+        if(i%2==0){
+            j=j*i; //factorial
+            b=b+j; //sum of factorial
+            document.write(b,"<br><br>") 
+        }
+        i=i+1 
+    }while(i<=a);
+
+
+</script>

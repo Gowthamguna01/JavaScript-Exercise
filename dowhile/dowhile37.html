@@ -1,0 +1,41 @@
+<script>
+    let n,b,c,d;
+    n=parseInt(prompt("Enter Value="));
+    c=0
+    d=" "
+    while(n>0){
+        b=n%16
+        n=n%16
+        
+        if(b==10){
+            d=d+"a"}
+
+        else if(b==11){
+            d=d+"b"
+        }
+
+        else if(b==12){
+            d=d+"c"
+        }
+
+        else if(b==13){
+            d=d+"d"
+        }
+
+        else if(b==14){
+            d=d+"e"
+        }
+
+        else if(b==15){
+            d=d+"f"
+        }
+    
+
+        else{
+            d=str(b)+d
+            document.write(d, "<br><br>")
+        }
+        
+    }
+    
+</script>

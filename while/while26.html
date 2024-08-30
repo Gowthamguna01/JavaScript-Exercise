@@ -1,0 +1,16 @@
+<script>
+    "use strict"
+    //even number
+    let a,b;
+    a=parseInt(prompt("enter value"));
+    while(a>0){
+        if(a%2==0){
+            b=a-2; //5-2=3 b=3.. 3-2=1 b=1
+            document.write(a,"current number <br><br>")
+            if(b>0){
+                document.write(b, "previous number <br><br>")
+            }
+        }
+        a=a-1
+    }
+</Script>

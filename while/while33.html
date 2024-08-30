@@ -1,0 +1,32 @@
+<script>
+    
+    let a,n,c,d,g;
+    n=parseInt(prompt("Enter Value="));
+    c=0
+    d=0
+    g=n
+    a=Math.pow(n,2)
+    while(n>0){
+        b=n%10;
+        n=parseInt(n/10);
+        c=c*10+b;
+        document.write(c, "<br><br>")
+    }
+
+    s=Math.pow(c,2)
+    document.write(s, "<br><br>")
+    while(s>0){
+        v=s%10;
+        s=parseInt(s/10);
+        d=d*10+v;
+    }
+    document.write(d, "<br><br>")
+
+    if(a==d){
+        document.write(g, "adam <br><br>")
+    }
+
+    else{
+        document.write(g,  "not adam <br><br>")
+    }
+</script>

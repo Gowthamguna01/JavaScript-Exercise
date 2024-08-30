@@ -1,0 +1,32 @@
+<script>
+    let n,i,a,c,d;
+    n=parseInt(prompt("Enter student count="));
+    b=parseInt(prompt("Enter subject count="));
+    for(i=1;i<=n;){
+        c=0
+        for(a=1;a<=b;){
+            m=parseint(prompt("Enter sub mark="));
+            c=c+m
+            d=parseInt(c/b)
+            a=a+1
+        }
+
+        if(d>=80 && d<=100){
+            document.write("A grade")
+        }
+
+        else if(d>=60 && d<80){
+            document.write("B grade")
+        }
+
+        else if(d>=35 && d<60){
+            document.write("c grade")
+        }
+
+        else if(d>=1 && d<35){
+            document.write("fail")
+        }
+        i=i+1
+
+    }
+</script>

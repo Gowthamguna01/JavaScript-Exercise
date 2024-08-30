@@ -1,0 +1,17 @@
+<script>
+    let n,i,a,b;
+    n=parseInt(prompt("Enter n="));
+    for(i=1;i<=n;){
+        b=0
+        for(a=1;a<=i;a++){
+            if(i%a==0){
+                b=b+1
+            }
+            a=a+1
+        }
+        if(b==2){
+            document.write(i, "prime number=")
+        }
+        i=i+1
+    }
+</script>
