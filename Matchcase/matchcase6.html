@@ -1,0 +1,49 @@
+<script>
+    let a,f,c,k;
+
+    a=parseInt(prompt("enter value="));
+
+    switch (a){
+        case 1:
+            f=parseInt(prompt("enter f value="));
+            c=(f-32)*5/9
+            document.write("Fahrenheit to celsius",c)
+            break;
+
+        case 2:
+            c=parseInt(prompt("enter c value="));
+            f=c*9/5+32
+            document.write("celsius to fahrenheit",f)
+            break;
+
+        case 3:
+            c=parseInt(prompt("enter c value="));
+            k=c+273.15
+            document.write("celsius to kelvin",k)
+            break;
+
+
+        case 4:
+            k=parseInt(prompt("enter k value="));
+            f=(k-273.15)*9/5+32
+            document.write("kelvin to fahrenheit",f)
+            break;
+
+
+        case 5:
+            f=parseInt(prompt("enter f value="));
+            k=(f-32)*5/9+273.15
+            document.write("Fahrenheit to kelvin",k)
+            break;
+
+        case 6:
+            k=parseInt(prompt("enter f value="));
+            c=k-273.15
+            document.write("kelvin to celsius",c)
+            break;
+
+        default:
+            document.write("no more")
+
+    }
+</script>

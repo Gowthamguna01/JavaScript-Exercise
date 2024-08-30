@@ -1,0 +1,39 @@
+<script>
+    "use strict"
+    let a,tam,eng,mat,sci,soc,b;
+    tam=parseInt(prompt("Enter Tamil mark="));
+    eng=parseInt(prompt("Enter English mark="));
+    mat=parseInt(prompt("Enter Maths mark="));
+    sci=parseInt(prompt("Enter Science mark="));
+    soc=parseInt(prompt("Enter Soc mark="));
+    
+    a=tam+eng+mat+sci+soc
+    b=a/5
+
+    if(tam>35 && eng>35 && mat>35 && sci>35 && soc>35){
+
+    if(b>80 && b<=100){
+        document.write("A Grade")
+    }
+
+    else if(b>70 && b<=80){
+        document.write("B Grade")
+    }
+
+    else if(b>60 && b<=70){
+        document.write("C Grade")
+    }
+
+    else if(b>50 && b<=60){
+        document.write("D Grade")
+    }
+
+    else if(b>=35 && b<=50){
+        document.write("E Grade")
+    }
+
+    else{
+        document.write("FAIL")
+    }
+}
+</script>

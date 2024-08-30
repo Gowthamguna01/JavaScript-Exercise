@@ -1,0 +1,37 @@
+<script>
+    //sales & commission
+    "use strict"
+    let a,b;
+    a=parseInt(prompt("Enter value="));
+
+    if(a<100000){
+        if(a<50000 && a<=100000){
+            if(a<20000 && a<=50000){
+                if(a<10000 && a<=20000){
+                    if(a>0 && a<=10000){
+                        b=a*0/100
+                        document.write("under 10k=",b)
+                    }
+                }
+
+                else{
+                    b=a*5/100
+                    document.write("10k to 20k=",b)}
+                
+            }
+            else{
+                b=a*10/100
+                document.write("20k to 50k=",b)}
+        }    
+        else{
+            b=a*15/100
+            document.write("50k to 1Lhks=",b)}
+    }
+
+    else{
+        b=a*20/100+500
+        document.write("above 1Lhk",b)
+    }
+
+    
+</script>

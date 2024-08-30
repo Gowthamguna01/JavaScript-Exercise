@@ -1,0 +1,33 @@
+<script>
+    "use strict"
+    let a,b,c,u;
+    a=parseInt(prompt("enter value="));
+    if(a>600){
+        b=a-599
+        c=(199*1.20)+(200*1.50)+(200*1.80)+(b*2)
+        document.write("above 600 value=",c)
+    }
+
+    else if(a>=400 && a<600){
+        b=a-599
+        c=(199*1.20)+(200*1.50)+(200*1.80)
+        document.write("400 to 600 value=",c)
+    }
+
+    else if(a>=200 && a<400){
+        b=a-199
+        c=(199*1.20)
+        document.write("200 to 400 value=",c)
+    }
+
+    else if(a>0 && a<=199){
+        b=(a*1.20)
+        document.write("under 200 value=",b)
+    }
+
+    if(c>=400){
+            u=c*15/100+c
+            document.write("above 400=",u)
+    }
+
+</script>

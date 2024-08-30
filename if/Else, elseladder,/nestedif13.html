@@ -1,0 +1,35 @@
+<script>
+    //electricity bill
+    "use strict"
+    let a,b,c;
+
+    a=parseInt(prompt("enter vaue="));
+
+    if(a<600){
+        if(a<=400 && a<=600){
+            if(a<=200 && a<=400){
+                if(a>0 && a<199){
+                    c=199*1.20
+                    document.write("c value=",c)
+                }
+            }
+            else{
+                b=a-199
+                c=(199*1.50)+(b*1.20)
+                document.write("c value=",c)
+            }
+        }
+        else{
+            b=a-399
+            c=(199*1.20)+(200*1.50)+(b*1.80)
+            document.write("c value=",c)
+        }
+    }
+
+    else{
+        b=a-599
+        c=(199*1.20)+(200*1.50)+(200*1.80)+(b*2)
+        document.write("c value=",c)
+    }
+
+</script>

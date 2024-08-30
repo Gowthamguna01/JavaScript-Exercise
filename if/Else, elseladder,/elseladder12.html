@@ -1,0 +1,31 @@
+<script>
+    "use strict"
+    let a,b;
+    a=parseInt(prompt("Enter Amount="));
+
+    if(a>100000){
+        b=a*20/100+500
+        document.write("above 1 lhk value=",b)
+    }
+
+    else if(a>50000 && a<=100000){
+        b=a*15/100
+        document.write("50k to 1Lkh value=",b)
+    }
+
+    else if(a>20000 && a<=50000){
+        b=a*10/100
+        document.write("20k to 50k value=",b)
+    }
+
+    else if(a>10000 && a<=20000){
+        b=a*5/100
+        document.write("10k to 20k value=",b)
+    }
+
+    else if(a<10000){
+        b=a*0/100
+        document.write("under 10k value=",b)
+    }
+
+</script>

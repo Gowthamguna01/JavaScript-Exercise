@@ -1,0 +1,20 @@
+<script>
+    "use strict"
+    let a,b,c;
+    a=parseInt(prompt(" A SIDE="));
+    b=parseInt(prompt(" B SIDE="));
+    c=parseInt(prompt(" C SIDE="));
+
+    if(a==b && a==c && b==c  ){
+        document.write("equalent")
+    }
+    
+    if(a==b || c==a || c==b && a!=b || a!=c || b!=c || c!=a){
+        document.write("isoscalene")
+    }
+    
+    if(a!=b!=c){
+        document.write("scalene")
+    }
+
+</script>

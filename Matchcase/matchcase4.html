@@ -1,0 +1,39 @@
+<script>
+    "use strict"
+
+    let a,b,c;
+    a=parseInt(prompt("enter a value="));
+    b=parseInt(prompt("enter b value="));
+    c=prompt("Enter sign=");
+
+    switch (c){
+        case "+":
+            b=a+b
+            document.write("value=",b)
+            break;
+
+        case "-":
+            b=a-b
+            document.write("value=",b)
+            break;
+
+        case "*":
+            b=a*b
+            document.write("value=",b)
+            break;
+
+        case "/":
+            b=a/b
+            document.write("value=",b)
+            break;
+
+        case "%":
+            b=a%b
+            document.write("value=",b)
+            break;
+
+        default:
+            document.write("no more")
+
+    }
+</script>
