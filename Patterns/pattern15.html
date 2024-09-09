@@ -1,0 +1,20 @@
+<script>
+    let a,i,j,k,g,v;
+    a=parseInt(prompt("enter a num="))
+    for(g=1;g<=a;){
+        for(k=a-g;k>0;k--){
+            document.write(" ",end="")
+        }
+        for(j=1;j<g;j++){
+            document.write(j, end="")
+        }
+        document.write(g, end="")
+        for(v=g-1;v>0;v--){
+            document.write(v, end="")
+            document.write(" ")
+            
+        }
+        g=g+1
+        document.write("<br>")
+    }
+</script>

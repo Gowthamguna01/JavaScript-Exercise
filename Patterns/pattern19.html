@@ -1,0 +1,52 @@
+<script>
+    let a,i,j,k,g,v;
+    a=parseInt(prompt("Enter a num="))
+    g=1
+    for(i=1;i<a+1;i++){
+        for(k=a-g;k>0;k--){
+            document.write("#", end="")
+            
+        }
+        document.write("<br>")
+
+        for(j=1;j<g;j++){
+            if(j==1){
+                document.write("*", end="")
+            }
+
+            else{
+                document.write(" ",end="")
+            }
+        }
+        document.write("<br>")
+
+        if(g==1){
+            document.write(g, end="")
+        }
+        else{
+            document.write(" ", end="")
+        }
+        document.write("<br>")
+
+
+        for(v=g-1;v>0;v--){
+            if(v==1){
+                document.write(v, end="")
+            }
+            else{
+                document.write(" ", end="")
+            }
+            document.write(" ")
+        }
+        g=g+1
+        document.write("<br>")
+        document.write()
+
+        for(g=1;g<a+1;g++){
+            document.write(g, end="")
+            document.write(" ")
+        }
+        document.write("<br>")
+
+    }
+</script>
