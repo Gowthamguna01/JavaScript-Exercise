@@ -1,0 +1,53 @@
+<script>
+    let a,v,ma,su;
+
+    a=parseInt(prompt("No.of.subject="))
+    v=parseInt(prompt("Enter Name="))
+    ma=[]
+    su=[]
+    
+    for(i=0;i<a;i++){
+        su[i]=parseInt(prompt("Enter suject="))
+    }
+
+    for(j=0;j<a;j++){
+        ma[i]=parseInt(prompt("Enter marks="))
+    }
+
+    document.write("student name=",end=" ")
+
+    for(s in su){
+        document.write("&nbsp", end=" ")  
+    }
+    document.write()
+
+    for(m in ma){
+        document.write(m, end=" ")
+    }
+    document.write()
+
+    g=parseInt(prompt("Enter again:(press 1)"))
+
+    if(g==1){
+        a=parseInt(prompt("no.of.subjects="))
+        v=parseInt(prompt("Enter Name="))
+        ma=[]
+        su=[]
+
+        for(i=0,i<a;i++;){
+            su[i]=parseInt(prompt("enter marks="))
+        }
+
+        for(j=0;j<a;j++){
+            ma[i]=parseInt(prompt("Enter marks="))
+        }
+
+        document.write(v, end=" ")
+
+        for(s in su){
+            document.write("&nbsp", end=" ")
+        document.write()
+        }
+    }
+
+</script>

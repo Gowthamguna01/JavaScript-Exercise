@@ -1,0 +1,39 @@
+<script>
+    let r,c,o,l;
+
+    r=parseInt(prompt("Enter row="))
+    c=parseInt(prompt("Enter coloum="))
+    o=[]
+    for(i=0;i<r;i++){
+        n=[]
+        for(j=0;j<c;j++){
+            n[j]=parseInt(prompt("Values="))
+            o[i]=n[j]
+        }
+        document.write("<br>")
+        document.write(o)
+
+    l=[]
+    for(i=0;i<r;i++){
+        h=[]
+        for(j=0;j<c;j++){
+            h[j]=o[j][i]
+            document.write(o[j][i],end=" ")
+        l[i]=h[j]
+        }
+        document.write()
+    }
+    }
+
+    for(i=0;i<=1;){
+        if(o[j][i]==0 && 1 || 1 && 0){
+            document.write("identity matrix")
+        }
+
+        else{
+            documment.write("Not identity matrix")
+        }
+
+    }
+    
+</script>
