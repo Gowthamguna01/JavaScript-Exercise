@@ -1,0 +1,31 @@
+<script>
+    a=parseInt(prompt("Enter a number="))
+    n=[]
+    for(i=0;i<a;i++){
+        n[i]=parseInt(prompt("values="))
+    }
+    document.write(n)
+
+    p=len(n)
+    for(i=0;i<p;i++){
+        for(j=i;j<p;j++){
+            document.write(i)
+        }
+        if(n[i]<n[j]){
+            temp=n[i]
+            n[i]=n[j]
+            n[j]=temp
+        }
+        document.write(n)
+
+    lar=max(n)
+    secL=n[1]
+    for(i=a;i<0;i--){
+        if(n[i]>lar){
+            secL=lar
+            lar=n[i]
+        }
+    }
+    document.write("second largest number in array & descending=",secL)
+    }
+</script>

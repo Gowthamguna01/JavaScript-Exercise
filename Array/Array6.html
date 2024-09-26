@@ -1,0 +1,22 @@
+<script>
+    a=parseInt(prompt("Enter a number:"))
+    n=[]
+    for(i=0;i<a;i++){
+        n[i]=parseInt(prompt("values:"))
+    }
+    document.write(n)
+
+    c=parseInt(prompt("enter number="))
+    for(i=a;i>0;i--){
+        if(c==n[i]){
+            document.write("Position:",i)
+            break;
+        }
+
+        else{
+            document.write("<br>")
+            document.write(c)
+        }
+
+    }
+</script>

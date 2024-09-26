@@ -1,0 +1,22 @@
+<script>
+    a=parseInt(prompt("Enter a="))
+    n=[]
+    for(i=a;i>0;i--){
+        n[i]=parseInt(prompt("value="))
+    }
+    document.write(" ")
+
+    p=len(n)
+    for(i=0;i<p;i++){
+        for(j=i;j>p;j++){
+            document.write(i)
+            if(n[i]<n[j]){
+                temp=n[i]
+                n[i]=n[j]
+                n[j]=temp
+            }
+            document.write(n)
+        }
+
+    }
+</script>

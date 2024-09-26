@@ -1,0 +1,17 @@
+<script>
+    a=parseInt(prompt("Enter a="))
+    n=[]
+    for(i=0;i<a;i++){
+        n[i]=parseInt(prompt("value="))
+    }
+    document.write(n)
+
+    b=Math.max(...n)
+    for(i=0;i<a;i++){
+        if(n[i]<b){
+            b=n[i]
+        }
+        document.write("<br>")   
+    }
+    document.write("smallest number",b)
+</script>

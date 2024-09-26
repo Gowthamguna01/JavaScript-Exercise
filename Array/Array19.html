@@ -1,0 +1,19 @@
+<script>
+    a=parseInt(prompt("Enter a="))
+    n=[]
+    for(i=a;i>0;i--){
+        n[i]=parseInt(prompt("Value="))
+    }
+    document.write(n)
+
+    for(i=a;i>0;i--){
+        for(j=i;j<a;j++){
+            if(n[i]==n[j]){
+                document.write("duplicate nummber=",n[i])
+
+            }
+        }
+
+
+    }
+</script>
