@@ -1,0 +1,16 @@
+<script>
+    function eligible(a){
+        
+        if(a>=18){
+            return("Eligible for vote")
+        }
+        if(a<18){
+            return("Not Eligible for vote")
+        }
+    }
+
+a=parseInt(prompt("Enter a"))
+
+x=eligible(a)
+document.write(x)
+</script>

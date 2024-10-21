@@ -1,0 +1,21 @@
+<script>
+    "use strict"
+    //even number
+    let a,b;
+    function program(a){
+        do{
+            if(a%2==0){
+                b=a-2; //5-2=3 b=3.. 3-2=1 b=1
+                return(a,"current number <br><br>")
+                if(b>0){
+                    return(b, "previous number <br><br>")
+                }
+            }
+            a=a-1
+        }while(a>0);
+    }
+
+a=parseInt(prompt("enter value"));
+x=program(a)
+document.write(x)
+</Script>

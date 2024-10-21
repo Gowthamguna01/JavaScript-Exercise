@@ -1,0 +1,22 @@
+<script>
+    function Arr(a){
+        n=[]
+        for(i=0;i<a;i++){
+            n[i]=parseInt(prompt("value="))
+        }
+        return(n)
+        
+        b=Math.max(...n)
+        for(i=0;i<a;i++){
+            if(n[i]<b){
+                b=n[i]
+            }
+            return("<br>")   
+        }
+        return("smallest number",b)
+    }
+
+a=parseInt(prompt("Enter a="))
+x=Arr(a)
+document.write(x)
+</script>

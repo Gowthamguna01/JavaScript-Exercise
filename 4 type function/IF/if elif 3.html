@@ -1,0 +1,32 @@
+<script>
+    function arithmatic(a,b,c){
+        
+        if(c=="1" || c=="+"){
+            d=a+b
+            return(d)
+        }
+        else if(c=="2" || c=="-"){
+            d=a-b
+            return(d)
+        }
+        else if(c=="3" || c=="*"){
+            d=a*b
+            return(d)
+        }
+        else if(c=="4" || c=="/"){
+            d=a/b
+            return(d)
+        }
+        else if(c=="5" || c=="%"){
+            d=a%b
+            return(d)
+        }
+    }
+
+a=parseInt(prompt("Enter a="))
+b=parseInt(prompt("Enter b="))
+c=(prompt("Enter c="))
+    
+x=arithmatic(a,b,c)
+document.write(x)
+</script>

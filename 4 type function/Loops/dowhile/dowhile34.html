@@ -1,0 +1,18 @@
+<script>
+    let n;
+    function program(n){
+        i=1;
+        j=0;
+        while(i<n){
+            if(n%i==0){
+                j=j+i
+                i=i+1
+                return(j)
+            }
+        }
+    }
+
+n=parseInt(prompt("Enter Value="));
+x=program(n)
+document.write(x)
+</script>

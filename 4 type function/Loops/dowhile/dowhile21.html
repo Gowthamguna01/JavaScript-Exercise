@@ -1,0 +1,23 @@
+<script>
+    //factorial sum of even
+    "use strict"
+    let a,i,j,b;
+    function program(a){
+        i=1;
+        j=1;
+        b=0;
+        do{
+            if(i%2==0){
+                j=j*i; //factorial
+                b=b+j; //sum of factorial
+                return(b,"<br><br>") 
+            }
+            i=i+1 
+        }while(i<=a);
+    }
+
+a=parseInt(prompt("enter value="));
+
+x=program(a)
+document.write(x)
+</script>

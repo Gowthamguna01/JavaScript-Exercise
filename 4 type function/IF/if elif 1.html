@@ -1,0 +1,21 @@
+<script>
+    function biggest(a,b,c){
+        
+        if(a>b && a>c){
+            return("A is big")
+        }
+        else if(b>a && b>c){
+            return("B is big")
+        }
+        else if(c>a && c>b){
+            return("c is big")
+        }
+    }
+
+a=parseInt(prompt("Enter a"))
+b=parseInt(prompt("Enter b"))
+c=parseInt(prompt("Enter c"))
+
+x=biggest(a,b,c)
+document.write(x)
+</script>

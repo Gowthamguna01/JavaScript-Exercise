@@ -1,0 +1,25 @@
+<script>
+    "use strict"
+    let a,d,c,b;
+    function program(a){
+        d=0;
+        c=a;
+        do{
+            b=a%10;
+            a=parseInt(a/10);
+            d=d*10+b;
+            return(d, "<br><br>")
+        }while(a>0);
+        if(d==c){
+            return("palindrome")
+        }
+        else{
+            return("Not palindrome")
+        }
+    }
+
+a=parseInt(prompt("Enter Value="));
+x=program(a)
+document.write(x)
+
+</script>

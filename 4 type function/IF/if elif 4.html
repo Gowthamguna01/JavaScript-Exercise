@@ -1,0 +1,35 @@
+<script>
+    let TAM,ENG,MAT,SCI,SOC,b,c;
+
+    function grade(TAM,ENG,MAT,SCI,SOC){
+        
+        b=TAM+ENG+MAT+SCI+SOC;
+        c=b/5;
+        if(c>85 && c<100){
+            return("A grade")
+        }
+        else if(c>70 && c<=85){
+            return("B grade")
+        }
+        else if(c>50 && c<=70){
+            return("c grade")
+        }
+        else if(c>35 && c<=50){
+            return("d grade")
+        }
+        else if(c<35){
+            return("Fail")
+
+        }
+    }
+
+TAM=parseInt(prompt("Enter Tam:"))
+ENG=parseInt(prompt("Enter Eng:"))
+MAT=parseInt(prompt("Enter Mat:"))
+SCI=parseInt(prompt("Enter Sci:"))
+SOC=parseInt(prompt("Enter Soc:"))
+
+
+x=grade(TAM,ENG,MAT,SCI,SOC)
+document.write(x)
+</script>

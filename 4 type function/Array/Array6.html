@@ -1,0 +1,27 @@
+<script>
+    function Arr(a){
+        n=[]
+        for(i=0;i<a;i++){
+            n[i]=parseInt(prompt("values:"))
+        }
+        return(n)
+        
+        c=parseInt(prompt("enter number="))
+        for(i=a;i>0;i--){
+            if(c==n[i]){
+                return("Position:",i)
+                break;
+            }
+
+            else{
+                return("<br>")
+                return(c)
+            }
+
+        }
+    }
+
+a=parseInt(prompt("Enter a number:"))
+x=Arr(a)
+document.write(x)
+</script>

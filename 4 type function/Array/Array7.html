@@ -1,0 +1,23 @@
+<script>
+    function Arr(a){
+        n=[]
+        for(i=0;i<a;i++){
+            n[i]=parseInt(prompt("value="))
+        }
+        
+        return(n)
+        c=parseInt(prompt("C value="))
+        x=[]
+        for(i=0;i<a;i++){
+            if(c!=n[i]){
+            x.push(n[i])
+        }
+    }
+    return("<br>")
+    return(x)
+}
+
+a=parseInt(prompt("Enter a="))
+x=Arr(a)
+document.write(x)
+</script>

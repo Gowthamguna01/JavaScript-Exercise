@@ -1,0 +1,25 @@
+<script>
+    function Arr(a){
+        n=[]
+        for(i=0;i<a;i++){
+            n[i]=parseInt(prompt("values="))
+        }
+        return(n)
+        
+        c=parseInt(prompt("c value="))
+        for(i=0;i<a;i++){
+            if(c==n[i]){
+                return("Array contain value")
+                break;
+            }
+            
+            else{
+                return("Array not contain value")
+            }
+        }
+    }
+
+a=parseInt(prompt("Enter a:"))
+x=Arr(a)
+document.write(x)
+</script>

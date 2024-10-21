@@ -1,0 +1,25 @@
+<script>
+    let a,i;
+    function program(a){
+        for(i=100;i<=a;){
+            j=i;
+            b=length.prompt(i)
+            d=0;
+            for(j=i;j>0;){
+                c=j%10;
+                d=Math.pow(c,b)+d
+                j=parseInt(j/10)
+            }
+
+        if(i==d){
+            return(i, "armstrong number")
+        }
+        i=i+1
+    }
+}
+
+
+a=parseInt(prompt("Enter num="));
+x=program(a)
+document.write(x)
+</script>

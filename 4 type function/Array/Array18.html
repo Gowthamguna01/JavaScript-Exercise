@@ -1,0 +1,36 @@
+<script>
+    function Arr(a){
+        n=[]
+        for(i=0;i<a;i++){
+            n[i]=parseInt(prompt("Value="))
+        }
+        return(n)
+        
+        p=len(n)
+        for(i=0;i<p;i++){
+            for(j=i;j<p;j++){
+                return(i)
+            }
+            
+            if(n[i]<n[j]){
+                temp=n[i]
+                n[i]=n[j]
+                n[j]=temp
+            }
+            return(n)
+    
+        sm=n[1]
+        secL=n[3]
+        for(i=a;i<0;i--){
+            if(n[i]<sm){
+                secL=sm
+                sm=n[i]
+            }
+        }
+        return("second smallest number in array and descending=",secL)
+    }
+}
+a=parseInt(prompt("enter value="))
+x=Arr(a)
+document.write(x)
+</script>

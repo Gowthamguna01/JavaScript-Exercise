@@ -1,0 +1,22 @@
+<script>
+    let n;
+    function program(n){
+        m=n;
+        c=0;
+        for(n>0;n--;){
+            b=n%10
+            n=parseInt(n/10)
+            i=1;
+            for(j=1;j<=b;){
+                i=j*i;
+                j=j+1;
+            }
+            c=c+i
+            return(c, "<br>")
+        }
+    }
+
+n=parseInt(prompt("Enter n num="));
+x=program(n)
+document.write(x)
+</script>
