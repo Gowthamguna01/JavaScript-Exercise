@@ -1,0 +1,17 @@
+<script>
+    //reverse a number 1234 => 4321
+    "use strict"
+    let a,b,c;
+    function program(a){
+        c=0
+        do{
+            b=a%10; //find lastnumber and reverse
+            a=parseInt(a/10); //loop stop
+            c=c*10+b //join a number
+            document.write(c, "<br><br>")
+        }while(a>0);
+    }
+
+a=parseInt(prompt("Enter a num="));
+program(a)
+</script>

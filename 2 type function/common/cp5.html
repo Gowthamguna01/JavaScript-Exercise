@@ -1,0 +1,14 @@
+<script>
+    let h,R,r,u,i,P;
+    function area_cylinder(h,R,r){
+        u=Math.pow(R,2)
+        i=Math.pow(r,2)
+        P=2*3.14*r*h*(u-i)
+        document.write(P)
+    }
+
+h=parseInt(prompt("Enter h="))
+R=parseInt(prompt("Enter R="))
+r=parseInt(prompt("Enter r="))
+area_cylinder(h,R,r)
+</script>

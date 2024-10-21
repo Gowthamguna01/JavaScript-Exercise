@@ -1,0 +1,28 @@
+<script>
+    //Given number is Armstrong or not.
+    let  n,a,c,d,m;
+    function program(n){
+        c=0;
+        a=n;
+        d=0;
+        m=n;
+        j=0;
+        do{
+            n=parseInt(n/10); //loop stop
+            c=c+1 //digit find
+            document.write(c, "<br><br>")
+        }while(n>0);
+        
+        do{
+            b=a%10; //reverse
+            d=Math.pow(b,c);
+            a=parseInt(a/10); //loop stop
+            j=j+d;
+            document.write(d, "<br><br>")
+            document.write(j, "<br>")
+        }while(a>0);
+    }
+
+n=parseInt(prompt("Enter Value="));
+program(n)
+</script>

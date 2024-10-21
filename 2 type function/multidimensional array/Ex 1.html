@@ -1,0 +1,36 @@
+<script>
+    //with argument without return value
+    function multi(r,c){
+        o=[]
+        for(i=0;i<r;i++){
+            n=[]
+            for(j=0;j<c;j++){
+                n[j]=parseInt(prompt("Enter Values="))
+            o[i]=n[j]
+            document.write(o)
+            }
+            l=[]
+            for(i=0;i<r;i++){
+                h=[]
+                for(j=0;j<c;j++){
+                    h[j]=o[j][i]
+                    document.write(o[j][i])
+                l[i]=h[j]
+                document.write()
+                }
+                for(i=0;i=0;i++){
+                    if(o[j][i]== 0 && 1 || 1 && 0){
+                        document.write("Identity Matrix")
+                    }
+                    else{
+                        document.write("Not Identity Matrix")
+                    }
+                }
+            }
+        }
+    }
+
+r=parseInt(prompt("Enter row="))
+c=parseInt(prompt("Enter coloum="))
+multi(r,c)
+</script>

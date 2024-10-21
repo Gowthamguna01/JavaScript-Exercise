@@ -1,0 +1,26 @@
+<script>
+    let p,r,t,c;
+    function Match(p,r,t,c){
+        
+        switch (c){
+        case "si":
+            si=(p*r*t)/100
+            document.write("si value=",si)
+            break;
+
+        case "ci":
+            ci=p*(1+(r/100))*t-1
+            document.write("ci value=",ci)
+            break;
+    }
+}
+
+
+
+p=parseInt(prompt("Enter p value="));
+r=parseInt(prompt("Enter r value="));
+t=parseInt(prompt("Enter t value="));
+c=prompt("Enter sign value=");
+Match(p,r,t,c)
+
+</script>

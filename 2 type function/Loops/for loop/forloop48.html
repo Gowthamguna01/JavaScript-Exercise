@@ -1,0 +1,18 @@
+<script>
+    //Fibonacci series.(0,1,1,2,3,5,8,13…..n)
+
+    let n,a,b,i,c;
+    function program(n){
+        a=0;
+        b=1;
+        for(i=1;i<=n;i++){
+            document.write(a, "<br><br>")
+            c=a+b;
+            a=b;
+            b=c;
+        }
+    }
+
+n=parseInt(prompt("Enter n="));
+program(n)
+</script>

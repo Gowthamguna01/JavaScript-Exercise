@@ -1,0 +1,17 @@
+<script>
+    //Count number of digits of a number
+    let n,i,c,b,a;
+    function program(n){
+        c=1;
+        i=1;
+        for(n;n>0;n--){
+            b=parseInt(n/10)
+            c=c+1;
+            i=i+1;
+            document.write(c, "<br><br>")
+        }
+    }
+
+n=parseInt(prompt("Enter value="));
+program(n)
+</script>

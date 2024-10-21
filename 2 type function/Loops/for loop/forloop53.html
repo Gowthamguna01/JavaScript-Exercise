@@ -1,0 +1,16 @@
+<script>
+    //Calculate product of digits of a number.
+    let n,c,a;
+    function program(n){
+        c=1;
+        for(n;n>=0;n--){
+            a=n%10;
+            n=parseInt(n/10)
+            c=c*a;
+            document.write(c, "<br><br>")
+        }
+    }
+
+n=parseInt(prompt("Enter Number="));
+program(n)
+</script>
