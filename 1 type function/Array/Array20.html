@@ -1,0 +1,33 @@
+<script>
+
+    function Arr(){
+    let a,s,b,i,j;
+
+    a=parseInt(prompt("Enter a="))
+    s=[]
+    for(i=a;i>0;i--){
+        s[i]=prompt("value=")
+    }
+    document.write(s)
+
+    dup=[]
+    for(i=a;i>0;i--){
+        for(j=i;j<a;j++){
+            if(s[i]==s[j] && !dup.includes(s[i])){
+                dub.push(s[i])
+            }
+        }
+    
+    if(dup){
+        document.write("Duplicates strings=",dup)
+    }
+
+    else{
+        document.write("No duplicates")
+    }
+    }
+}
+Arr()
+
+    
+</script>

@@ -1,0 +1,40 @@
+<script>
+    let a,b;
+    function sales(){
+        a=parseInt(prompt("Enter a:"))
+        if(a<100000){
+            if(a<=50000 && a<=100000){
+                if(a<=20000 && a<50000){
+                    if(a<=10000 && a<20000){
+                        if(a>=0 && a<10000){
+                            b=a*0/100
+                            document.write("b values",b)
+                        }
+
+                    else{
+                        b=a*(5/100)
+                        document.write("b value",b)
+                    }
+                    }
+
+                else{
+                    b=a*(10/100)
+                    document.write("b value",b)
+                }
+                }
+
+            else{
+                b=15/100
+                document.write("b value",b)
+            }
+            }
+            
+        else{
+            b=a*(20/100)+500
+            document.write("b value",b)
+        }
+        }
+    }
+sales()
+
+</script>
