@@ -1,0 +1,22 @@
+<script>
+    //factorial 1/i and odd
+    "use strict"
+    function program(){
+    let a,i,j,b;
+    a=parseInt(prompt("enter value="));
+    i=1
+    j=1
+    b=0
+    do{
+        if(i%2==1){
+            j=j*i;
+            b=b+(1/j);
+            return(b,"<br><br>")
+        }
+        i=i+1
+    }while(i<=a);
+
+}
+x=program()
+document.write(x)
+</script>

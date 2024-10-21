@@ -1,0 +1,22 @@
+<script>
+    function Arr(){
+    a=parseInt(prompt("Enter a="))
+    n=[]
+    for(i=a;i>0;i--){
+        n[i]=parseInt(prompt("Value="))
+    }
+    return(n)
+
+    for(i=a;i>0;i--){
+        for(j=i;j<a;j++){
+            if(n[i]==n[j]){
+                return("duplicate nummber=",n[i])
+
+            }
+        }
+    }
+}
+
+x=Arr()
+document.write(x)
+</script>

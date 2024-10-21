@@ -1,0 +1,24 @@
+<script>
+    function Match(){
+    let p,r,t,c;
+    p=parseInt(prompt("Enter p value="));
+    r=parseInt(prompt("Enter r value="));
+    t=parseInt(prompt("Enter t value="));
+    c=prompt("Enter sign value=");
+
+    switch (c){
+        case "si":
+            si=(p*r*t)/100
+            return("si value=",si)
+            break;
+
+        case "ci":
+            ci=p*(1+(r/100))*t-1
+            return("ci value=",ci)
+            break;
+    }
+}
+
+x=Match()
+document.write(x)
+</script>

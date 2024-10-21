@@ -1,0 +1,14 @@
+<script>
+    let a,s,b,c;
+    function area_of_triangle(){
+        
+        a=parseInt(prompt("Enter a="))
+        s=parseInt(prompt("Enter s="))
+        b=parseInt(prompt("Enter b="))
+        c=parseInt(prompt("Enter c="))
+        A=Math.sqrt(s*(s-a)*(s-b)*(s-c))
+        return(A)
+    }
+x=area_of_triangle()
+document.write(x)
+</script>
