@@ -1,0 +1,16 @@
+<script>
+    class Cylinder{
+        area_cylinder(){
+            let h,R,r,u,i,P;
+            h=parseInt(prompt("Enter h="))
+            R=parseInt(prompt("Enter R="))
+            r=parseInt(prompt("Enter r="))
+            u=Math.pow(R,2);
+            i=Math.pow(r,2);
+            P=2*3.14*r*h*(u-i)
+            document.write(P)
+        }
+    }
+x = new Cylinder()
+x.area_cylinder()
+</script>

@@ -1,0 +1,28 @@
+<script>
+    class Common{
+        "use strict"
+        program(){
+            let a,i,j,b,d,c;
+            a=parseInt(prompt("Enter num="));
+            
+            for(i=100;i<=a;){
+                j=i;
+                b=length.prompt(i);
+                d=0;
+                for(j=i;j>0;){
+                    c=j%10;
+                    d=Math.pow(c,b)+d;
+                    j=parseInt(j/10);
+                }
+
+            if(i==d){
+                document.write(i, "armstrong number")
+            }
+            i=i+1;
+            }
+        }
+    }
+
+x = new Common()
+x.program()
+</script>

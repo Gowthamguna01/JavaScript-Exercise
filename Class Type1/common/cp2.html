@@ -1,0 +1,16 @@
+<script>
+    class Triangle{ 
+        area_of_triangle(){
+            let a,s,b,c,A;
+            a=parseInt(prompt("Enter a="));
+            s=parseInt(prompt("Enter s="));
+            b=parseInt(prompt("Enter b="));
+            c=parseInt(prompt("Enter c="));
+            A=Math.sqrt(s*(s-a)*(s-b)*(s-c))
+            document.write(A)
+        }
+    }
+
+x = new Triangle()
+x.area_of_triangle()
+</script>

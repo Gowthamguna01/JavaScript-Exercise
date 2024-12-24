@@ -1,0 +1,20 @@
+<script>
+    class Common{
+        "use strict"
+        program(){
+            let n,c,a;
+            n=parseInt(prompt("Enter Value="));
+            c=0;
+            
+            for(n;n>=0;n--){
+                a=n%10;
+                n=parseInt(n/10);
+                c=c+a;
+                document.write(c, "<br><br>");
+            }
+        }
+    }
+
+x = new Common()
+x.program()
+</script>

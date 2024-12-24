@@ -1,0 +1,25 @@
+<script>
+    //factorial 1/i and odd
+    
+    class Pro{
+        "use strict"
+        program(){
+            let a,i,j,b;
+            a=parseInt(prompt("enter value="));
+            i=1;
+            j=1;
+            b=0;
+            do{
+                if(i%2==1){
+                    j=j*i;
+                    b=b+(1/j);
+                    document.write(b,"<br><br>")
+                }
+                i=i+1
+            }while(i<=a);
+        }
+    }
+
+x = new Pro()
+x.program()
+</script>

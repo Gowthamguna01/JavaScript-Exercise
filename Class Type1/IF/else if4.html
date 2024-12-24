@@ -1,0 +1,33 @@
+<script>
+    class Sub{
+    grade(){
+        let TAM,ENG,MAT,SCI,SOC,b,c;
+        TAM=parseInt(prompt("Enter Tam:"));
+        ENG=parseInt(prompt("Enter Eng:"));
+        MAT=parseInt(prompt("Enter Mat:"));
+        SCI=parseInt(prompt("Enter Sci:"));
+        SOC=parseInt(prompt("Enter Soc:"));
+        b=TAM+ENG+MAT+SCI+SOC;
+        c=b/5;
+        if(c>85 && c<100){
+            document.write("A grade");
+        }
+        else if(c>70 && c<=85){
+            document.write("B grade");
+        }
+        else if(c>50 && c<=70){
+            document.write("c grade");
+        }
+        else if(c>35 && c<=50){
+            document.write("d grade");
+        }
+        else if(c<35){
+            document.write("Fail");
+
+        }
+    }
+}
+
+x = new Sub()
+x.grade()
+</script>

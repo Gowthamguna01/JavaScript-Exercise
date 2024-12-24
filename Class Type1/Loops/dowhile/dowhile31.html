@@ -1,0 +1,31 @@
+<script>
+    
+    class Palin{
+        "use strict"
+        program(){
+            let a,d,c,b;
+            a=parseInt(prompt("Enter Value="));
+            d=0;
+            c=a;
+            do{
+                b=a%10;
+                a=parseInt(a/10);
+                d=d*10+b;
+                document.write(d, "<br><br>")
+            }while(a>0);
+            
+            if(d==c){
+                document.write("palindrome")
+            }
+            
+            else{
+                document.write("Not palindrome")
+            }
+        }
+    }
+
+x = new Palin()
+x.program()
+
+
+</script>

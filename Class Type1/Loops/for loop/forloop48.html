@@ -1,0 +1,21 @@
+<script>
+    class Common{
+        "use strict"
+        program(){
+            let n,a,b,i,c;
+            n=parseInt(prompt("Enter n="));
+            a=0;
+            b=1;
+            
+            for(i=1;i<=n;i++){
+                document.write(a, "<br><br>");
+                c=a+b;
+                a=b;
+                b=c;
+            }
+        }
+    }
+
+x = new Common()
+x.program()
+</script>

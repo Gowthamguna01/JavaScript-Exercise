@@ -1,0 +1,42 @@
+<script>
+    class Common{
+        "use strict"
+        multi(){
+            let r,c,o,n,i,j,l,h;
+            r=parseInt(prompt("Enter Row="))
+            c=parseInt(prompt("Enter coloum="))
+            o=[]
+            for(i=0;i<r;i++){
+                n=[]
+                for(0;c;j++){
+                    n[j]=parseInt(prompt("Enter Values="))
+                    o[i]=n[j]
+                    document.write(o)
+                }
+                
+                l=[]
+                for(i=0;i<r;i++){
+                    h=[]
+                    for(0;c;j++){
+                        h[j]=o[j][i]
+                        document.write(o[j][i],end=" ")
+                        l[i]=h[j]
+                    }
+                    document.write()
+                }
+                for(i=0;i<1;){
+                    if(o[j][i]==0 && 1 || 1 && 0){
+                        document.write("identity matrix")
+                    }
+                
+                    else{
+                        document.write("not identity matrix")
+                    }
+                }
+            }
+        }
+    }
+ 
+x = new Common()
+x.multi()
+</script>

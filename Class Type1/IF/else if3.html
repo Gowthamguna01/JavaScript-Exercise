@@ -1,0 +1,38 @@
+<script>
+    class Match{
+        arithmatic(){
+            let a,b,c,d;
+            a=parseInt(prompt("Enter a="));
+            b=parseInt(prompt("Enter b="));
+            c=prompt("Enter sign=");
+
+            if(c=="1" || c=="+"){
+                d=a+b;
+                document.write(d);
+            }
+            
+            else if(c=="2" || c=="-"){
+                d=a-b;
+                document.write(d);
+            }
+            
+            else if(c=="3" || c=="*"){
+                d=a*b;
+                document.write(d);
+            }
+            
+            else if(c=="4" || c=="/"){
+                d=a/b;
+                document.write(d);
+            }
+            
+            else if(c=="5" || c=="%"){
+                d=a%b;
+                document.write(d);
+            }
+        }
+    }
+
+x = new Match()
+x.arithmatic()
+</script>
